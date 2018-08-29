@@ -1,0 +1,11 @@
+/* Fig. 2.1: fig02_01.c
+2 A first program in C */
+3 #include <stdio.h>
+4
+5 /* function main begins program execution */
+6 int main( void )
+7 {
+8 printf( "Welcome to C!\n" );
+9
+10 return 0; /* indicate that program ended successfully */
+11 } /* end function main */
