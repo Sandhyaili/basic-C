@@ -1,8 +1,39 @@
 what is c program?
+
+A program take user inputs, computes and prints output.
+A program written in c langauge is a c program.
+
 what is the main objectives of it?
+A program is written to automate a computation or information processing task.
+For example: you can write a program to find the average marks of a set of students.
+
 to start a c program, what are the basic things to be known?
+You should know Editor - To type the program and store it in a file.
+Terminal - A application used to give commands to operating system.
+
+$ gcc to compile the program.
+$ cd to change director
+$ ls to list contents of a directory.
+$ rm to remove a file
+
+And more commands from lab manual.
+
 why do we ussymbols like #?
+#include <stdio.h> is required to use printf in the program.
+
+
 what are the significances of braces [ {},(),<> ] ?
-why we do write return0 at the end?
+{} is a block of statements
+() is a list of parameters to a function
+<> is used only in #include <stdio.h>
+
+why we do write return 0 at the end?
+Every function has to return.
+If you dont have a return statement you dont return anything.
+If you have return 0 you return 0 to the calling function.
+main is a function
+but who calls main?
+$./a.out calls main
+so the shell gets the return value.
 what is "stdio.h"?
 why do we write "include" in the beginning?
