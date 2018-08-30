@@ -18,7 +18,7 @@ $ rm to remove a file
 
 And more commands from lab manual.
 
-why do we ussymbols like #?
+why do we us symbols like #?
 #include <stdio.h> is required to use printf in the program.
 
 
