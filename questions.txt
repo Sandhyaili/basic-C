@@ -1,2 +1,22 @@
-what is c program development environment?
-what is disk?
+what is editor?
+editor is program where a programmer creates the program. The programmer to perform a c program should create an editor file and store it in some location named with .c extension. The program can open their editor file oftenly and edit it. 
+what is preprocessor?
+preprocessor is the program take certain instructions called as preprocessor directives automatically before the compilation.
+what is compiler?
+compiler compiles the program code into object code.[in the fom of which the computer can understand]
+what is linker?
+it is given hat c programs have references to functions that are stored in some standard libraries. generally c program after compilation is done and object code is produced, it contains holes. the linker links the code in the missing part and produces an excutable code.
+what is loader?
+it puts program in the memory.
+what is the use of cpu?
+it takes the program instructions from the code, reads and executes it one after the other.
+whta are holes in the object code?
+what are preprocessor directives?
+Ex : #include <stdio.h> - When preprocessor sees # then it will process the line. When preprocessor sees include.
+     It will put the contents of stdio.h in the output file.
+     Preprocessor takes .c file as input and produce .i file as output.
+     compiler takes .i file as input and .o file as out put
+     linker takes .o file as input and produces executable as output.
+    
+     
+     #define
