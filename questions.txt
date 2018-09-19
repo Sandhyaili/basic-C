@@ -11,7 +11,7 @@ it puts program in the memory.
 what is the use of cpu?
 it takes the program instructions from the code, reads and executes it one after the other.
 whta are holes in the object code?
-though object code is produced through compilation, thee object code contain certain functions that are not defined such as printf and scanf. the linker. these are called missing parts. the linker creates an executable file from the object file in which these missing parts are defined.
+though object code is produced through compilation, the object code contain certain functions that are not defined such as printf and scanf. these are called missing parts. the linker creates an executable file from the object file in which these missing parts are defined.
 what are preprocessor directives?
 Ex : #include <stdio.h> - When preprocessor sees # then it will process the line. When preprocessor sees include.
      It will put the contents of stdio.h in the output file.
