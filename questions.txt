@@ -92,3 +92,14 @@ int main()
 
 }
 
+QUESTIONS
+
+what is a variable?
+variable is any indication for the data or the values used. it is dependent on the programmer. the programmer can assume and write any tyoe of variable for the convinience.
+
+what is the type of variable?
+it is the information which tells about the the datatype of the variable which we are assigning.
+
+what are the basic types of variable in c programming?
+basic types are integer type, flooat type, double type etc.
+
