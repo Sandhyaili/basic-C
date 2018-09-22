@@ -21,3 +21,74 @@ Ex : #include <stdio.h> - When preprocessor sees # then it will process the line
     
      
      #define
+ADDITION PROGRAM
+what is 'int main'?
+main is the calling function. int represents the integer.
+
+why do we write void in the braces?
+because we are not passing any parameters for the main function.
+
+what is '%d' and '&'?
+%d is the standard notation to specify the integer.
+& is the address specifier where the integer uis stored in the memory.
+
+why do we write return at at the end?
+it is a part of function body where the programmer tells to return the value after the program is executed.
+
+what if it  is not written?
+the function may not return any value.
+
+what is printf and scanf?
+these are the library functions.
+these are also the called functions called by the main funciton which acts as calling function.
+printf function instructs to print the entered value.
+scanf function instructs to read the entered value entered from the keyboard.
+
+why do we write ; at the end?
+it indicates the termination of that line.
+
+PROGRAM TO ADD, SUBTRACT AND MULTIPLY.
+before fixing errors.
+#include <stdio.h>
+int main()
+{
+    int a , b , c , sum , diff ,  product ;
+    printf("enter the values of a and b\n");
+    scanf("%d,%d", &a , &b);
+    c=a+b;
+    printf("the sum is %d", c);
+    c=a-b;
+    printf("the diff is %d", c);
+   /* div=a/b;
+    printf("the div is %d", c );*/
+    c=a*b;
+    printf("the product is %d", c);
+
+}
+initially, c was declared in the function declaration part and is used further. it showed the syntax error.
+when c as removed, error occured.
+it also showed some errors called floating point exception error. what is it?
+when some of the errors are corrected, the final Output result is wrong.
+
+changes made
+in scanf part ',' is removed between the %d's.
+if it is there, the scanf function will read ',' including %d since comma is not a white spacing character.
+
+after fixing errors.
+#include <stdio.h>
+int main()
+{
+    int a , b , sum , diff ,  product ;
+    printf("enter the values of a and b");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("the sum is %d\n", sum);
+    diff=a-b;
+    printf("the diff is %d\n", diff);
+   /* div=a/b;
+    printf("the div is %d", div );*/
+    product=a*b;
+    printf("the product is %d\n",product);
+
+}
+
