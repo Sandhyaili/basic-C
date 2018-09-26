@@ -8,6 +8,28 @@ i didnt understand the above statement?
 
 When a program calls a function, the program control is transferred to the called function.
 whatb is progarm control?
+  #include <stdio.h>
+int max(int num1,int num2);
+int main()
+{
+    int a = 100;
+    int b = 200;
+    int ret;
+    ret=max( a , b );
+    printf("max is :%d\n" , ret);
+    return 0;
+}
+int max(int num1,int num2)
+{
+    int result;
+    if(num1>num2)
+    result=num1;
+    else
+    result=num2;
+    return result;
+}
+output max is 200
+  
 
 
 
