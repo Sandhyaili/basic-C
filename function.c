@@ -74,4 +74,22 @@ int main()
 }
 output max is 200
 
-
+#include <stdio.h>
+int main()
+{
+    int a , b , ret;
+    printf("enter two numbers\n");
+    scanf("%d%d" , &a ,&b);
+    ret=max( a , b );
+    printf("max is :%d\n" , ret);
+    return 0;
+}
+int max( int a, int b)
+{
+    int result;
+    if(a>b)
+    result=a;
+    else
+    result=b;
+    return result;
+}
