@@ -35,3 +35,22 @@ int main()
 }
 output g=20
 LOCAL VARIABLES HAS HIGHER PRIORITY THAN GLOBAL VARIABLE, WHEN A VARIABLE FIRST DEFINED GLOBALLY , THE SAME VARIABLE IS ALSO USED LOCALLY.
+
+#include <stdio.h>
+int a=10;
+int main()
+{
+    int a=20;
+    int b=10;
+    int c=0;
+    printf("the value of a in main() is %d\n", a);
+    printf("the value of c in main () is %d\n,", c);
+    c=sum(a,b);
+    printf("the value of b in main() is %d\n", c);
+}
+int sum (int a, int b)
+{int c;
+    c=a+b;
+    printf("the value of c in main() is %d\n", c);
+    return a+b;
+}
