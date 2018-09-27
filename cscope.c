@@ -55,3 +55,7 @@ int sum (int a, int b)
     printf("the value of c in main() is %d\n", c);
     return a+b;
 }
+
+what is meant by 'initial default value'?
+
+    
