@@ -1,0 +1,14 @@
+#include <stdio.h>
+float area(float num1,float num2);
+int main()
+{float a,b,ret;
+printf("enter the values of a and b\n");
+scanf("%f%f",&a,&b);
+ret=area(a,b);
+printf("area is %.2f",ret);
+}
+float area(float num1,float num2)
+{float area;
+area=num1*num2;
+return area;
+}
