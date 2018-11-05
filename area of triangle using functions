@@ -1,0 +1,18 @@
+#include <stdio.h>
+float area(float b,float h);
+int main()
+{
+float ret,base,height;
+printf("enter the base of the triangle\n");
+scanf("%f",&base);
+printf("enter the height of the triangle\n");
+scanf("%f",&height);
+ret=area(base,height);
+printf("area is %.2f",ret);
+}
+float area(float b,float h)
+{
+float area;
+area=0.5*b*h;
+return area;
+}
